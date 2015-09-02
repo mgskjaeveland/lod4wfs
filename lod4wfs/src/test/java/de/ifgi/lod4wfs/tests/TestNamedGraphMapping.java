@@ -2,20 +2,14 @@ package de.ifgi.lod4wfs.tests;
 
 import java.net.MalformedURLException;
 import java.net.URISyntaxException;
-import java.security.URIParameter;
 import java.util.ArrayList;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import javax.xml.namespace.QName;
-
-import org.apache.xerces.util.URI;
 import org.apache.xerces.util.URI.MalformedURIException;
 
 import com.hp.hpl.jena.rdf.model.Model;
 import com.hp.hpl.jena.rdf.model.ModelFactory;
-
-import de.ifgi.lod4wfs.core.WFSFeature;
 
 public class TestNamedGraphMapping {
 

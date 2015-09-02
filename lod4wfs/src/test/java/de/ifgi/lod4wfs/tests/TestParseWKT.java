@@ -1,7 +1,6 @@
 package de.ifgi.lod4wfs.tests;
 
 import it.cutruzzula.lwkt.WKTParser;
-import it.cutruzzula.lwkt.util.XmlUtils;
 
 public class TestParseWKT {
 

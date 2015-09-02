@@ -1,23 +1,9 @@
 package de.ifgi.lod4wfs.tests;
 
-import java.io.ByteArrayOutputStream;
-import java.io.File;
-import java.io.FileOutputStream;
 import java.io.IOException;
-import java.net.URL;
-
-import org.geotools.GML;
-import org.geotools.GML.Version;
-import org.geotools.data.DataUtilities;
-import org.geotools.data.simple.SimpleFeatureCollection;
-import org.geotools.feature.FeatureCollections;
 import org.geotools.feature.SchemaException;
-import org.geotools.feature.simple.SimpleFeatureBuilder;
 import org.geotools.geometry.GeometryBuilder;
-import org.geotools.geometry.jts.WKTReader2;
 import org.geotools.geometry.text.WKTParser;
-import org.geotools.referencing.CRS;
-import org.opengis.feature.simple.SimpleFeatureType;
 import org.opengis.referencing.FactoryException;
 import org.opengis.referencing.NoSuchAuthorityCodeException;
 

@@ -389,7 +389,6 @@ public class ServletWFS extends HttpServlet
 			e.printStackTrace();
 		}
 
-
 		return result;
 	}
 

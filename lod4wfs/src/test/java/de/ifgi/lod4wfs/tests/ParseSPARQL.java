@@ -59,7 +59,7 @@ public class ParseSPARQL {
 			for (int i = 0; i < query.getResultVars().size(); i++) {
 				
 				Triple triple = new Triple();
-				triple.setObjectDataType(GlobalSettings.defaultLiteralType);
+				triple.setObjectDataType(GlobalSettings.getDefaultLiteralType());
 				triple.setPredicate("?"+query.getResultVars().get(i).toString());
 				result.add(triple);
 				
